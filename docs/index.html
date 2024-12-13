@@ -31,7 +31,7 @@
   
   
 
-<link rel="next" href="1-introduction.html"/>
+<link rel="next" href="1-pendahuluan.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -201,11 +201,11 @@ div.csl-indent {
 <li><center><img src="images/logo.png" alt="logo" width="50%" height="50%"style="margin: 15px 0 0 0"></center></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
-<li class="chapter" data-level="1" data-path="1-introduction.html"><a href="1-introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Kata Pengantar</a></li>
+<li class="chapter" data-level="1" data-path="1-pendahuluan.html"><a href="1-pendahuluan.html"><i class="fa fa-check"></i><b>1</b> Pendahuluan</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="1.1-colophon.html"><a href="1.1-colophon.html"><i class="fa fa-check"></i><b>1.1</b> Colophon</a></li>
-<li class="chapter" data-level="1.2" data-path="1.2-a-very-short-introduction-to-r-and-rstudio.html"><a href="1.2-a-very-short-introduction-to-r-and-rstudio.html"><i class="fa fa-check"></i><b>1.2</b> A Very Short Introduction to <tt>R</tt> and <em>RStudio</em></a></li>
+<li class="chapter" data-level="1.1" data-path="1.1-kolofon.html"><a href="1.1-kolofon.html"><i class="fa fa-check"></i><b>1.1</b> Kolofon</a></li>
+<li class="chapter" data-level="1.2" data-path="1.2-pengenalan-singkat-r-and-rstudio.html"><a href="1.2-pengenalan-singkat-r-and-rstudio.html"><i class="fa fa-check"></i><b>1.2</b> Pengenalan Singkat <tt>R</tt> and <em>RStudio</em></a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="2-pt.html"><a href="2-pt.html"><i class="fa fa-check"></i><b>2</b> Probability Theory</a>
 <ul>
@@ -465,34 +465,56 @@ Buku ini sedang dalam tahap <b>tinjauan terbuka</b>. Kami ingin umpan balik Anda
 <p class="author"><em>Deden Istiawan</em></p>
 <p class="date"><em>2024-12-13</em></p>
 </div>
-<div id="preface" class="section level1 unnumbered hasAnchor">
-<h1>Preface<a href="index.html#preface" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="kata-pengantar" class="section level1 unnumbered hasAnchor">
+<h1>Kata Pengantar<a href="index.html#kata-pengantar" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <hr style="background-color:#3C6690;height:2px">
 <center>
-<img src='images/cover.png' style = 'width:60%;'>
+<img src="images/cover.png" style="width:60%;"/>
 </center>
-<p><br> Chair of Econometrics, <img style='float: right; margin: 0px 100px 0px 0px; width:35%' src='images/logo_claim_en_rgb.png'/> <br> Department of Business Administration and Economics <br> University of Duisburg-Essen <br> Essen, Germany <br> <a href=\"mailto:info@econometrics-with-r.org?subject=Econometrics%20with%20R\"><a href="mailto:info@econometrics-with-r.org" class="email">info@econometrics-with-r.org</a>.</a> <br><br> Last updated on Friday, December 13, 2024.
-<br>
-<br>
+<p><br> Rekayasa Perangkat Lunak
+<img src="images/itesa.png" style="float: right; margin: 0px 100px 0px 0px; width:35%"/>
+<br> Fakultas Sains dan Teknologi <br> Institut Teknologi Statistika dan
+Bisnis Muhammadiyah <br> Semarang, Indonesia <br>
+<a href=\"mailto:deden.istiawan@itesa.ac.id?subject=Clustering%20with%20R\"><a href="mailto:deden.istiawan@itesa.ac.id" class="email">deden.istiawan@itesa.ac.id</a>.</a>
+<br><br>
+Last updated on Friday, December 13, 2024.
+<br> <br>
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FEconometricsWithR%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="400" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" align="left"></iframe>
-<br>
-<br>
-<br></p>
+<br> <br> <br></p>
 <hr style="background-color:#3C6690;height:2px">
-<p>Over the last few years, the statistical programming language R has become an integral part of the curricula of econometrics classes we teach at the University of Duisburg-Essen. We regularly found that a large share of the students, especially in our introductory undergraduate econometrics courses, had not been exposed to any programming language before and thus had difficulty to engage with learning R on their own. With little background in statistics and econometrics, beginners naturally have a hard time understanding the benefits of having R skills for learning and applying econometrics. These particularly include the ability to conduct, document and communicate empirical studies and having the ability to program simulation studies which is helpful, e.g., for comprehending and validating theorems which usually are not easily grasped by mere brooding over formulas. Being applied economists and econometricians, we value and wish to share with our students all of these capabilities.</p>
-<p>Instead of confronting students with pure coding exercises and complementary classic literature like the book by <span class="citation">Venables and Smith (<a href="#ref-venables2010">2010</a>)</span>, we figured it would be better to provide interactive learning material that blends R code with the contents of the well-received textbook <em>Introduction to Econometrics</em> by <span class="citation">Stock and Watson (<a href="#ref-stock2015">2015</a>)</span> which serves as a basis for the lecture. This material is gathered in the present book <em>Introduction to Econometrics with R</em>, an empirical companion to <span class="citation">Stock and Watson (<a href="#ref-stock2015">2015</a>)</span>. It is an interactive script in the style of a reproducible research report that not only enables students to learn how results of case studies can be replicated with R but also strengthens their ability in using the newly acquired skills in other empirical applications.</p>
-<div id="conventions-used-in-this-book" class="section level4 unnumbered hasAnchor">
-<h4>Conventions Used in this Book<a href="index.html#conventions-used-in-this-book" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li><p><em>Italic</em> text indicates new terms, names, buttons and the like.</p></li>
-<li><p><tt>Monospaced font</tt> is generally used in paragraphs to refer to <tt>R</tt> code. This includes commands, variables, functions, data types, databases, and file names.</p></li>
-<li><p><code>Monospaced font on gray background</code> indicates <tt>R</tt> code that can be typed literally by you. It may appear in paragraphs for better distinguishability among executable and non-executable code statements but it will mostly be encountered in shape of large blocks of <tt>R</tt> code. These blocks are referred to as <em>code chunks</em>.</p></li>
-</ul>
-</div>
+<p>Analisis cluster merupakan teknik yang sangat penting dalam bidang data
+science, karena kemampuannya untuk mengelompokkan data berdasarkan
+kesamaan karakteristik. Dengan mengelompokkan objek atau data, analisis
+cluster membantu mengidentifikasi pola yang mungkin tidak terlihat
+secara langsung dalam data mentah. Hal ini sangat berguna di berbagai
+bidang, seperti pemasaran, biologi, dan pengenalan pola, di mana
+pemahaman yang lebih dalam tentang struktur data dapat memberikan
+wawasan yang berharga <span class="citation">(<a href="#ref-kaufman:clustering1990">Kaufman and Rousseeuw 1990</a>)</span>.</p>
+<p>Salah satu manfaat utama dari analisis cluster adalah segmentasi pasar.
+Dalam dunia bisnis, perusahaan dapat menggunakan teknik ini untuk
+mengelompokkan pelanggan berdasarkan perilaku atau karakteristik
+tertentu. Dengan memahami segmen-segmen ini, perusahaan dapat merancang
+strategi pemasaran yang lebih efektif dan personalisasi produk untuk
+memenuhi kebutuhan spesifik dari setiap kelompok. Selain itu, analisis
+cluster juga memungkinkan pengelompokan data yang besar menjadi lebih
+mudah dipahami dan diinterpretasikan, sehingga memfasilitasi pengambilan
+keputusan yang lebih baik <span class="citation">(<a href="#ref-han2012mining">Han, Kamber, and Pei 2012</a>)</span>.</p>
+<p>Dalam konteks machine learning, analisis cluster sering digunakan
+sebagai metode unsupervised learning. Ini berarti bahwa algoritma
+clustering dapat menemukan struktur dalam data tanpa memerlukan label
+atau kategori sebelumnya. Hal ini sangat berguna ketika menghadapi
+dataset yang tidak terstruktur dan kompleks, di mana tujuan utamanya
+adalah untuk mengeksplorasi dan mendapatkan wawasan awal tentang data
+tersebut <span class="citation">(<a href="#ref-jain2010">Jain 2010</a>)</span>.</p>
+<p>Secara keseluruhan, analisis cluster tidak hanya membantu dalam
+pengelompokan data tetapi juga berfungsi sebagai alat eksplorasi yang
+kuat dalam memahami hubungan dan pola dalam dataset. Dengan demikian,
+penerapan analisis cluster dapat meningkatkan kualitas analisis data dan
+mendukung pengambilan keputusan berbasis data yang lebih baik di
+berbagai sektor industri .</p>
 <div id="acknowledgement" class="section level4 unnumbered hasAnchor">
 <h4>Acknowledgement<a href="index.html#acknowledgement" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>We thank the <em>Stifterverband für die Deutsche Wissenschaft e.V.</em> and the <em>Ministry of Culture and Science of North Rhine-Westphalia</em> for their financial support. Also, we are grateful to Alexander Blasberg for proofreading and his effort in helping with programming the exercises.
-A special thanks goes to Achim Zeileis (University of Innsbruck) and Christian Kleiber (University of Basel) for their advice and constructive criticism. Another thanks goes to Rebecca Arnold from the Münster University of Applied Sciences for several suggestions regarding the website design and for providing us with her nice designs for the book cover, logos and icons. We are also indebted to all past students of our introductory econometrics courses at the University of Duisburg-Essen for their feedback.</p>
+<p>Saya ingin mengucapkan terima kasih kepada keluarga, teman, dan rekan kerja yang telah mendukung saya dalam menyelesaikan buku ini. Terima kasih atas cinta, dukungan, dan motivasi yang telah Anda berikan</p>
 <p><br>
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg" alt="Creative Commons License" /></p>
 <p>This book is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
@@ -500,11 +522,14 @@ A special thanks goes to Achim Zeileis (University of Innsbruck) and Christian K
 </div>
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
-<div id="ref-stock2015" class="csl-entry">
-Stock, J. H., and M. W. Watson. 2015. <em><span>I</span>ntroduction to <span>E</span>conometrics, <span>T</span>hird <span>U</span>pdate, <span>G</span>lobal <span>E</span>dition</em>. <span>P</span>earson <span>E</span>ducation <span>L</span>imited.
+<div id="ref-han2012mining" class="csl-entry">
+Han, Jiawei, Micheline Kamber, and Jian Pei. 2012. <span>“Data Mining Concepts and Techniques, Third Edition.”</span> Waltham, Mass.: Morgan Kaufmann Publishers. 2012. <a href="http://www.amazon.de/Data-Mining-Concepts-Techniques-Management/dp/0123814790/ref=tmm_hrd_title_0?ie=UTF8&amp;qid=1366039033&amp;sr=1-1">http://www.amazon.de/Data-Mining-Concepts-Techniques-Management/dp/0123814790/ref=tmm_hrd_title_0?ie=UTF8&amp;qid=1366039033&amp;sr=1-1</a>.
 </div>
-<div id="ref-venables2010" class="csl-entry">
-Venables, W. N., and D. M. Smith. 2010. <em><span>A</span>n <span>I</span>ntroduction to <span>R</span></em>. <a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf">https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf</a>.
+<div id="ref-jain2010" class="csl-entry">
+Jain, Anil K. 2010. <span>“Data Clustering: 50 Years Beyond K-Means.”</span> <em>Pattern Recognition Letters</em> 31 (8): 651–66. <a href="https://doi.org/10.1016/j.patrec.2009.09.011">https://doi.org/10.1016/j.patrec.2009.09.011</a>.
+</div>
+<div id="ref-kaufman:clustering1990" class="csl-entry">
+Kaufman, L., and P. J. Rousseeuw. 1990. <em>Finding Groups in Data: An Introduction to Cluster Analysis</em>. Wiley.
 </div>
 </div>
             </section>
@@ -513,7 +538,7 @@ Venables, W. N., and D. M. Smith. 2010. <em><span>A</span>n <span>I</span>ntrodu
         </div>
       </div>
 
-<a href="1-introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="1-pendahuluan.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -544,7 +569,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/mca91/EconometricsWithR/edit/master/index.Rmd",
+"link": "https://github.com/dedenistiawan/Analisis_Cluster_R/edit/master/index.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -555,7 +580,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["ITER.pdf"],
+"download": null,
 "search": {
 "engine": "fuse",
 "options": null

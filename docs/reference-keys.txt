@@ -107,3 +107,6 @@ vector-autoregressions
 ooiatdfglsurt
 cointegration
 volatility-clustering-and-autoregressive-conditional-heteroskedasticity
+pendahuluan
+kolofon
+pengenalan-singkat-r-and-rstudio
